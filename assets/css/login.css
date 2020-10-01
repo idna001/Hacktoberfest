@@ -22,10 +22,10 @@ body {
     background: #000;
     position: absolute;
     color: #fff;
-    left: 50%;
-    top: 50%;
+    /* left: 50%;
+    top: 50%; */
     position: absolute;
-    transform: translate(-40%, -50%);
+    /* transform: translate(-40%, -50%); */
     box-sizing: border-box;
     border-radius: 10px;
     padding: 30px 30px;
