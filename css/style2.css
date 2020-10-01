@@ -26,6 +26,20 @@ header ul li {
   justify-content: space-evenly;
 } 
 
+header ul li a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+header ul li a:hover{
+  border-bottom: 2px solid white;
+}
+
+header ul li a.active{
+  border-bottom: 2px solid white;
+}
+
 main h1 {
     text-align: center;
 }
