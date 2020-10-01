@@ -1,0 +1,111 @@
+body {
+    background: url(/assets/images/bg.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.loginPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    width: 392px;
+    background: #000;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-40%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+
+.loginHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0 5 30px;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.loginbox p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+
+.loginbox input[type="text"]:focus,
+input[type="password"]:focus {
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    color: white;
+
+}
+
+.loginbox input[type="submit"] {
+    background: transparent;
+    text-align: center;
+    width: 100%;
+    background-color: red;
+    border-radius: 50px;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    color: red;
+    background-color: white;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: monospace;
+    line-height: 20px;
+    color: white;
+}
+
+.loginbox a:hover {
+    color: dodgerblue;
+}
