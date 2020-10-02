@@ -52,7 +52,7 @@ After commiting your work into the local repository write this command to bring 
 
 <pre>
 <code>git push origin your_new_branch_name</code>
-<pre>
+</pre>
 
 After pushing it to the repository make PR(pull request) to add those changes into main branch.
 
